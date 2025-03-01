@@ -44,12 +44,12 @@ default time is `3000 milliseconds`.
 
 ### General tab related shortcuts:
 
-- Create new tab: Leader + t
-- Exit tab: ALT + e
+- Create new tab: `Leader + t`
+- Exit tab: `ALT + e`
 
-- Leader + `[, ]`: Move to the next/previous relative tab
-- Leader + r: Rename current tab
-- Leader + f: Find a word that you type in current tab
+- Move to the previous/next relative tab: `Leader + [, ]`:
+- Rename current tab: `Leader + r`
+- Find a word that you type in current tab: `Leader + f`
 
 ## Multiplexing
 
@@ -60,7 +60,8 @@ windows either vertically or horizontally.
 
 ### General multiplexing shortcuts:
 
-- ALT + t: toggle left pane on/off
-- Leader + `v, s`: Create a Vertical split or Split normally (horizontal split)
-- CTRL + `h, j, k, l`: Move focus to up, down, left, right pane
-- ALT + `h, j, k, l`: Resize active pane in a direction
+- **Toggle** left pane on/off: `ALT + t`
+- **Create** a Vertical split or Split normally (horizontal split):
+  `Leader + v, s`
+- **Move** focus to up, down, left, right pane: `CTRL + h, j, k, l`
+- **Resize** active pane in a direction: `ALT + h, j, k, l`
