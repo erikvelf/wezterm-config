@@ -32,7 +32,7 @@ config.automatically_reload_config = true
 -- front_end = "WebGpu", -- use WebGPU for rendering
 
 -- Get the built-in color schemes
-local schemes = wezterm.color.get_builtin_schemes()
+-- local schemes = wezterm.color.get_builtin_schemes()
 
 -- Color scheme --
 config.color_scheme = "Nightfly (Gogh)"
@@ -49,7 +49,7 @@ config.term = "xterm-256color" -- options are: "xterm-256color", "wezterm"
 config.font = wezterm.font_with_fallback({
   { family = "JetbrainsMono Nerd Font" },
 })
-config.font_size = 13.25
+config.font_size = 12.5
 config.line_height = 1.2
 
 config.window_background_opacity = 1.0
