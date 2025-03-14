@@ -33,9 +33,12 @@ config.automatically_reload_config = true
 
 -- Get the built-in color schemes
 -- local schemes = wezterm.color.get_builtin_schemes()
-
--- Color scheme --
-config.color_scheme = "Nightfly (Gogh)"
+--
+-- Nice color schemes I like
+config.color_scheme = 'tokyonight'
+-- config.color_scheme = 'tokyonight_night'
+-- config.color_scheme = 'Cai (Gogh)'
+-- config.color_scheme = 'tokyonight_storm'
 
 -- Colors of the selection
 config.colors = {
@@ -52,7 +55,7 @@ config.font = wezterm.font_with_fallback({
 config.font_size = 12.5
 config.line_height = 1.2
 
-config.window_background_opacity = 1.0
+config.window_background_opacity = 1.0 -- 1.0 is full opacity
 
 -- Title bar settings
 config.window_decorations = "TITLE" -- Other options are: "TITLE", "TITLE|RESIZE"
