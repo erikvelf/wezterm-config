@@ -9,7 +9,7 @@ local module = {}
 -- module.alternativeBackground = "#2C3832"
 module.primary = "#f3f3f3"
 module.secondary = "#AEB7D0"
-module.alternative = "#EBFFE3"
+module.alternative = "#FFFFFF"
 module.disabled = "#9C9C9C"
 module.primaryBackground = "#6272A4"
 
@@ -30,12 +30,11 @@ module.colors = {
   yellow = "#F1CA81",
   orange = "#FFB86C",
   green = "#278F78",
-  -- neon_green = "#44FFB1",
-  dark_text = "#19212e",
+  dark_text = "#1e2335",
   dim_green = "#2D574A",
   light_blue = "#61afef",
   blue = "#1c99f3",
-  dim_blue = "#005f87",
+  dim_blue = "#1e2335",
   magenta = "magenta",
 }
 
