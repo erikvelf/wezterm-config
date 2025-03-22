@@ -37,7 +37,6 @@ config.automatically_reload_config = true
 -- Nice color schemes I like
 config.color_scheme = 'tokyonight'
 -- config.color_scheme = 'tokyonight_night'
--- config.color_scheme = 'Cai (Gogh)'
 -- config.color_scheme = 'tokyonight_storm'
 
 -- Colors of the selection
