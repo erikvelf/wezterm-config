@@ -62,11 +62,12 @@ function module.apply_to_config(config)
     local inactiveTabBackground = colors.colors.dim_blue
 
     local edgeForeground = "#CCCCCC"
-    local activeTabForeground = colors.primary
-    local inactiveTabForeground = colors.disabled
+    local activeTabForeground = colors.colors.dark_text
+    local inactiveTabForeground = colors.colors.blue
 
     local tabBackground = inactiveTabBackground
     local tabForeground = inactiveTabForeground
+
     local intensity = "Normal"
     local italic = true
 
@@ -79,8 +80,8 @@ function module.apply_to_config(config)
 
     local title = getTabTitle(tab)
 
-    local edgeLeft = wezterm.nerdfonts.ple_lower_right_triangle
-    local edgeRight = wezterm.nerdfonts.ple_upper_left_triangle
+    local edgeLeft = "█"
+    local edgeRight = "█"
 
     return {
       { Background = { Color = colors.statusBarBackground } },
@@ -88,12 +89,12 @@ function module.apply_to_config(config)
       { Text = edgeLeft },
       { Background = { Color = tabBackground } },
       { Foreground = { Color = edgeForeground } },
-      { Text = edgeRight },
+      -- { Text = edgeRight },
       { Background = { Color = tabBackground } },
       { Foreground = { Color = tabForeground } },
       { Attribute = { Intensity = intensity } },
       { Attribute = { Italic = italic } },
-      { Text = title },
+      { Text = " " .. title },
       { Background = { Color = colors.statusBarBackground } },
       { Foreground = { Color = tabBackground } },
       { Text = edgeRight },
